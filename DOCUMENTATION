@@ -1,0 +1,51 @@
+# Documentation for Quantum Monte Carlo (QMC) Program:
+
+## Introduction to Quantum Monte Carlo
+
+Quantum Monte Carlo (QMC) is a large class of computer algorithms that simulate quantum systems with the goal of solving the quantum many-body problem. 
+QMC methods are used to compute quantum properties of a system with many interacting particles. 
+These algorithms use random sampling to evaluate multi-dimensional integrals, which makes them well-suited to studying systems where 
+the wave function of the system is complex and not easily solvable by deterministic methods.
+
+For a comprehensive introduction to Quantum Monte Carlo methods, the following references are a good starting point:
+
+- "Quantum Monte Carlo Methods: Algorithms for Lattice Models" by James Gubernatis and Naoki Kawashima.
+- "Quantum Monte Carlo Approaches for Correlated Systems" by Federico Becca and Sandro Sorella.
+- "Electronic Structure Calculations on Graphics Processing Units: From Quantum Chemistry to Condensed Matter Physics" by Ross C. Walker and Andreas W. Götz.
+
+## Examples
+
+Here are some examples of how to run the calculations:
+
+### Example 1: Helium Atom VMC
+
+Run a VMC simulation for a Helium atom:
+To start a simulation, navigate to the program's directory and run: python3 montecarlo.py
+
+When prompted, input:
+
+- Number of electrons: 2
+- Number of nuclei: 1
+- Variational parameter `a`: 1.8
+- Atomic weight: 2
+- Total charge: 0
+- Number of Monte Carlo steps: 10000
+
+Choose `1` for Variational Monte Carlo.
+
+### Example 2: Hydrogen Molecule PDMC
+
+Run a PDMC simulation for a Hydrogen molecule (H2):
+
+When prompted, input:
+
+- Number of electrons: 2
+- Number of nuclei: 2
+- Variational parameter `a`: 1.2
+- Atomic weight: 1
+- Total charge: 0
+- Number of Monte Carlo steps: 20000
+
+Choose `2` for Pure Diffusion Monte Carlo.
+
+
