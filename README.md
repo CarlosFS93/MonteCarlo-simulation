@@ -22,7 +22,7 @@ To run this program, ensure that you have Python installed on your system. No ad
 ## Usage
 
 To start a simulation, run the `montecarlo.py` file in your Python environment (make sure the local.py file is in the same folder as the montecarlo.py file)
-
+The program is designed only for atoms or molecules of H and He.
 Follow the on-screen prompts to input the necessary parameters for the simulation:
 
 - Number of electrons
