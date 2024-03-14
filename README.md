@@ -4,7 +4,8 @@ This repository contains a Python program that performs Quantum Monte Carlo simu
 
 ## Description
 
-The program is designed to simulate electron-nucleus and electron-electron interactions within a quantum system. By leveraging Monte Carlo methods, it can handle multiple electrons and nuclei, making it a versatile tool for studying various atomic and molecular systems.
+The program is designed to simulate electron-nucleus and electron-electron interactions within a quantum system. By leveraging Monte Carlo methods, it can handle multiple electrons and nuclei, making it a versatile tool for studying various atomic and molecular systems. The script local.py is going to perform the 
+calculations of the local energy with the given parameters that will be use by the program montecarlo.py to do the simulation
 
 ### Variational Monte Carlo (VMC)
 
@@ -20,7 +21,7 @@ To run this program, ensure that you have Python installed on your system. No ad
 
 ## Usage
 
-To start a simulation, run the `montecarlo.py` file in your Python environment:
+To start a simulation, run the `montecarlo.py` file in your Python environment (make sure the local.py file is in the same folder as the montecarlo.py file)
 
 Follow the on-screen prompts to input the necessary parameters for the simulation:
 
