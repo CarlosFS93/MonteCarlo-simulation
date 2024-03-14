@@ -29,7 +29,11 @@ When prompted, input:
 - Variational parameter `a`: 1.8
 - Atomic weight: 2
 - Total charge: 0
+- Introduce coordinates of nuclei 1 in Angstrom (format: x y z): 0 0 0
 - Number of Monte Carlo steps: 10000
+- What type of Monte Carlo simulation do you want to run?
+- 1: Variational Monte Carlo (VMC)
+- 2: Pure Diffusion Monte Carlo (PDMC)
 
 Choose `1` for Variational Monte Carlo.
 
@@ -44,7 +48,12 @@ When prompted, input:
 - Variational parameter `a`: 1.2
 - Atomic weight: 1
 - Total charge: 0
+- Introduce coordinates of nuclei 1 in Angstrom (format: x y z): 0 0 0
+- Introduce coordinates of nuclei 2 in Angstrom (format: x y z): 1 1 1
 - Number of Monte Carlo steps: 20000
+- What type of Monte Carlo simulation do you want to run?
+- 1: Variational Monte Carlo (VMC)
+- 2: Pure Diffusion Monte Carlo (PDMC)
 
 Choose `2` for Pure Diffusion Monte Carlo.
 
